@@ -1,0 +1,25 @@
+{
+  "name": "whiskey",
+  "version": "1.0.0",
+  "description": "A whiskey API",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "whiskey",
+    "api",
+    "backend"
+  ],
+  "author": "Nadeem",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
