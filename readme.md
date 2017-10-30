@@ -10,7 +10,7 @@ This project has been organized in a way that separates controllers, models, and
 ## Requirements
 * NodeJS 4.2.x
 * NPM 3.5.x
-* MongoDB
+* MongoDB 3.6
 * Mongoose
 * Express
 

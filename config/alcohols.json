@@ -1,5 +1,5 @@
 {
-"data":
+"alcohols":
 [
 {"id":"15","name":"1792 Ridgemont Reserve","image":"http:\/\/localhost:8000\/images\/whiskey\/AybanBf8.png","nose":"A palate of sweet honey and vanilla tones is balanced with orange and spice, hinting at the relatively high rye content. A few minutes in the glass lets the nose open up nicely. A distinct woodiness sits in the background.","palate":"Quite tannic and fairly peppery, with a heavily woody flavor profile. A hint of maple is noticeable, but more than anything, what stands out is the dry, tongue-coating mouthfeel.","finish":"Oak predominates on a long, but drying, nearly hot finish. Some vanilla also peeks through.","country":"USA","created_at":"2017-10-28 04:56:03","updated_at":"2017-10-28 04:56:03"},
 {"id":"16","name":"Amador","image":"http:\/\/localhost:8000\/images\/whiskey\/jh2z0yus.png","nose":"Aroma of caramel, cloves and vanilla.","palate":"Notes of hop-spices, two-row barley, toffee, butterscotch, rich citrus, orange, warm caramel and nougat dominate the palate.","finish":"Long, ever-lasting finish.","country":"USA","created_at":"2017-10-28 04:56:04","updated_at":"2017-10-28 04:56:04"},
