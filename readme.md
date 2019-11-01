@@ -6,12 +6,12 @@ The whiskey data has been scraped from various sources and there are over 100 wh
 This project has been organized in a way that separates controllers, models, and routes. I always try to organize my application structure similar to any MVC framework. The models schemas are developed using mongoose in order to communicate fluidly with the MongoDB service. By default, this application uses mlab, but can be outfitted with different MongoDB services.
 
 ## Demo
-[Technopathic's Whiskey List](http://whiskey.technopathic.me/whiskey)
+[Technopathic's Whiskey List](https://whiskey.helsinki.codes/whiskey)
 
 ## Requirements
-* NodeJS 4.2.x
-* NPM 3.5.x
-* MongoDB 3.6
+* NodeJS 12.8.x
+* NPM 6.9.x
+* MongoDB 3.6.x
 * Mongoose
 * Express
 

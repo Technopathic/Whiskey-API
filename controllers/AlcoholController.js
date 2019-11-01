@@ -1,18 +1,18 @@
-var express = require('express');
-var router = express.Router();
-var bodyParser = require('body-parser');
+const express = require('express');
+const router = express.Router();
+const bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({ extended: true }));
 
-var Alcohol = require('../models/Alcohol');
+const Alcohol = require('../models/Alcohol');
 
-router.get('/', function (req, res) {
-	Alcohol.find({}, function (err, alcohol) {
+router.get('/', (req, res) => {
+	Alcohol.find({}, (err, alcohol) => {
 		if (err) { return res.status(500).send(err); }
 		else { return res.status(200).send(alcohol); }
-	});
+	});	
 });
 
-router.post('/', function (req, res) {
+router.post('/', (req, res) => {
 	Alcohol.create({
 		name: req.body.name,
 		image: req.body.image,
@@ -21,28 +21,28 @@ router.post('/', function (req, res) {
 		finish: req.body.finish,
 		country: req.body.country
 	},
-	function (err, alcohol) {
+	(err, alcohol) => {
 		if (err) {return res.status(500).send(err);}
 		else { return res.status(200).send(alcohol); }
 	});
 });
 
-router.put('/:id', function (req, res) {
-	Alcohol.findByIdAndUpdate(req.params.id, req.body, {new:true}, function(err, alcohol) {
+router.put('/:id', (req, res) => {
+	Alcohol.findByIdAndUpdate(req.params.id, req.body, {new:true}, (err, alcohol) => {
 		if (err) { return res.status(500).send(err); }
 		else { return res.status(200).send(alcohol); }
 	});
 });
 
-router.get('/:id', function (req, res) {
-	Alcohol.findById(req.params.id, function (err, alcohol) {
+router.get('/:id', (req, res) => {
+	Alcohol.findById(req.params.id, (err, alcohol) => {
 		if (err) {return res.status(500).send(err);}
 		else { return res.status(200).send(alcohol);}
 	});
 });
 
-router.delete('/:id', function (req, res) {
-	Alcohol.findByIdAndRemove(req.params.id, function (err, alcohol) {
+router.delete('/:id', (req, res) => {
+	Alcohol.findByIdAndRemove(req.params.id, (err, alcohol) => {
 		if (err) {return res.status(500).send(err); }
 		else { return res.status(200).send("Deleted Alcohol"); }
 	});
