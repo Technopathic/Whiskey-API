@@ -7,6 +7,7 @@ This project has been organized in a way that separates controllers, models, and
 
 ## Demo
 [Technopathic's Whiskey List](https://whiskey.helsinki.codes/whiskey)
+[Single Whiskey Selection](https://whiskey.helsinki.codes/whiskey/5dbb8a3703ac9b43b871dcb4)
 
 ## Requirements
 * NodeJS 12.8.x
